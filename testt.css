@@ -1,0 +1,91 @@
+.menu {
+	position: absolute;
+	width: 950px;
+	background-color: #222931;
+	font-size: 12px;
+	color: white;
+	top: 50px;
+	
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+	font-weight: bold;
+	float: left;
+}
+
+.menu > ul > li > a, .menu > ul > li > div > a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+	background-color: #ffe718;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222931;
+    width: 160px;
+    height: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content > a {
+	position: relative;
+    color: black;
+    padding: 5px 12px;
+    color: #aeb6be;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	color: #222931;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+<ul>
+                        <li><a class="active" href="#home">HOME</a></li>
+                        <li class="overOnsMenu">
+                            <div class="dropdown">
+                                <a href="#OverOns">OVER ONS <i class="fas fa-angle-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">Geschiedenis</a>
+                                    <a href="#">Deals</a>
+                                    <a href="#">Diensten</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#nieuws">NIEUWS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+        <meta charset="UTF-8">
