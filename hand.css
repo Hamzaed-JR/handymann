@@ -61,6 +61,8 @@ nav ul li ul li {
 nav ul li ul li a{
      padding: 8px 14px;
      color:grey;
+     font-size: 16px;
+     font-weight: 500;
 }
 
 nav ul li ul li a:hover{
@@ -248,6 +250,8 @@ body {
 .lorem{
     display: block;
     width: 550px;
+    font-size: 34px;
+    font-weight: 600px;
 }
 
 .contactInfo{
