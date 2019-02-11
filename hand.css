@@ -19,7 +19,6 @@ nav p{
    float: left;
    padding: 0px 10px;
    font-weight: 500;
-
 }
 nav ul{
   padding-left: 25px;
@@ -66,7 +65,7 @@ nav ul li ul li a{
 }
 
 nav ul li ul li a:hover{
-     background-color:  #ffe718;     
+     background-color:  #ffe718; 
 }
 
 body {
@@ -106,6 +105,10 @@ body {
     grid-template-columns: auto auto auto;
     grid-column-gap: 40px;
     justify-content: center;
+}
+
+.banner-1:hover , .banner-2:hover , .banner-3:hover{
+    opacity: 0.5;
 }
 
 .oplossingen {
@@ -201,7 +204,7 @@ body {
 }
 
 .deals i{
-    padding: 20px;
+    padding: 20px; 
 }
 
 .headDiensten {
@@ -250,7 +253,7 @@ body {
 .lorem{
     display: block;
     width: 550px;
-    font-size: 34px;
+    font-size: 14px;
     font-weight: 600px;
 }
 
@@ -344,5 +347,43 @@ hr{
     left: 600px;
     color: white;
     padding: 10px;
+}
+
+.toolDiensten{
+    display: block;
+    position: absolute;
+    top: 730px;
+    left: 350px;
+}
+
+.toolGeschiedenis{
+    display: block;
+    position: absolute;
+    top: 730px;
+    left: 650px;
+}
+
+.toolDeals{
+    display: block;
+    position: absolute;
+    top: 730px;
+    right: 360px;
+}
+ .bannerDeals{
+    font-size:30px;
+    font-weight: 500px;
+    color: black;
+}
+
+.bannerGeschiedenis{
+    font-size:30px;
+    font-weight: 500px;
+    color:black;
+}
+
+ .bannerDiensten{
+    font-size:30px;
+    font-weight: 500px;
+    color:black;
 }
 
